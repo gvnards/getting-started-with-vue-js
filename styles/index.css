@@ -1,0 +1,7 @@
+div.my-div {
+    padding: 5px;
+}
+
+div > div.my-div:nth-child(even) {
+    background-color: lightgrey;
+}
